@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HabbitTracker</string>
+    <string name="greeting">Morning, Budi! 👋</string>
+    <string name="current_date">April 14, 2026</string>
+    <string name="day_13">13</string>
+    <string name="day_14">14</string>
+    <string name="day_15">15</string>
+    <string name="day_16">16</string>
+    <string name="day_17">17</string>
+    <string name="day_18">18</string>
+    <string name="day_19">19</string>
+    <string name="set_reminder">Set the reminder</string>
+    <string name="reminder_desc">Never miss your evening routine</string>
+    <string name="set_now">🔔 Set Now</string>
+    <string name="daily_routine">Daily routine</string>
+    <string name="see_all">See all</string>
+    <string name="add_habit">Add habit</string>
+    <string name="time_optional">Time (optional)</string>
+    <string name="habit_name">Habit name</string>
+    <string name="save">Save</string>
+    <string name="todo">TODO</string>
+</resources>

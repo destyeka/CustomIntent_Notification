@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HabbitTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="Theme.HabbitTracker" parent="Base.Theme.HabbitTracker" />
+
+    <style name="dayText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="daySelected" parent="dayText">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomTimePickerTheme" parent="Theme.Material3.DayNight.Dialog">
+
+        <!-- Main colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="colorTertiary">@color/primary</item>
+
+        <!-- Text colors -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+
+        <!-- 🔥 IMPORTANT: force dialog button style -->
+        <item name="materialButtonStyle">@style/CustomDialogButton</item>
+
+    </style>
+
+    <style name="CustomDialogButton" parent="Widget.Material3.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/primary</item>
+    </style>
+</resources>
